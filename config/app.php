@@ -98,6 +98,8 @@ return [
     'cipher' => 'AES-256-CBC',
 
     'key' => env('APP_KEY'),
+    'device_token' => env('DEVICE_TOKEN'),
+    'fcm_server_key' => env('FCM_SERVER_KEY'),
 
     'previous_keys' => [
         ...array_filter(
